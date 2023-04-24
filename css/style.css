@@ -1,6 +1,6 @@
 :root{
     --primaryCol: #0d9979;
-    --fontTitle:calibre;
+    /* --fontTitle:calibre; */
 }
 
 /* GENERICO */
@@ -35,7 +35,17 @@ body{
 .container{
     max-width: 90%;
 }
-
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color: #555;
+    padding: 1rem;
+    padding-top: 7rem;
+}
+.header i{
+    color: var(--primaryCol);
+    font-size: 2rem;
+}
 /* BOTON */
 .btn{
     height: 3.5rem;
@@ -156,6 +166,68 @@ body{
     width: 70rem;
     /* width: 70%; */
 }
+
+
+/* About */
+
+.about .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.about .row .image{
+    flex: 1 1 40rem;
+    padding: 2rem;
+}
+.about .row .image img{
+    width: 100%;
+}
+
+.about .row .content{
+    flex: 1 1 40rem;
+    padding: 2rem;
+}
+.about .row .content h3{
+    font-size: 3rem;
+    color: var(--primaryCol);
+}
+.about .row .content p{
+    font-size: 1.5rem;
+    color: #666;
+    padding: 1rem 0;
+}
+
+.about .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.about .box-container .box{
+    padding:2rem 1rem;
+    text-align: center;
+    border: .2rem solid var(--primaryCol);
+    flex: 1 1 20rem;
+    margin: 2rem;
+}
+.about .box-container .box i{
+    color: var(--primaryCol);
+    font-size: 4rem;
+}
+.about .box-container .box h3{
+    color: #333;
+    font-size: 2.5rem;
+    padding: 1rem 0;
+}
+.about .box-container .box p{
+    color: #666;
+    font-size: 1.5rem;
+}
+
+
 
 
 
