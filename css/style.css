@@ -413,6 +413,82 @@ body{
 }
 
 
+/* Post */
+
+.post{
+    min-height: 100vh;
+}
+
+.post .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+.post .box-container .box{
+    width: 35rem;
+    box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
+    margin: 2rem 1.5rem;
+}
+.post .box-container .box img{
+    padding: .5rem;
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+}
+.post .box-container .box .content{
+    padding: 1rem;
+}
+.post .box-container .box .content span{
+    font-size: 1.5rem;
+    color: #666;
+}
+.post .box-container .box .content span i{
+    padding: 1rem 0;
+    color: var(--primaryCol);
+}
+
+.post .box-container .box .content h3{
+    font-size: 2.4rem;
+    color: #333;
+}
+.post .box-container .box .content:hover h3{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #333;
+}
+.post .box-container .box .content p{
+    color: #666 ;
+    font-size: 1.5rem ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* media queries */
